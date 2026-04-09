@@ -48,7 +48,7 @@ The results demonstrate that communication network performance plays a critical 
 
 
 
-## 🛠️ Tools Used
+## Tools Used
 
 * MATLAB
 * Numerical simulation
