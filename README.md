@@ -1,4 +1,4 @@
-# Simulation_of_Networks_Technologies_for_Disinfection_Robots
+# Simulation of Networks Technologies for Disinfection Robots
 
 ## Project Overview
 This project presents a MATLAB-based simulation of a remote-controlled disinfection robot operating under different wireless network conditions. The objective is to analyze how network performance accuracy and stability of robot control.
