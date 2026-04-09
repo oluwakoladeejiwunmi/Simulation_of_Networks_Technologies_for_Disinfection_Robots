@@ -15,30 +15,23 @@ The study is motivated by flu and pandemic scenarios, where remote-controlled ro
 
  ## Methodology
 ### Robot Model
-The robot is modeled using a unicycle kinematic model:
-* ( x_{k+1} = x_k + v \cos(\theta) \cdot dt )
-* ( y_{k+1} = y_k + v \sin(\theta) \cdot dt )
-* ( \theta_{k+1} = \theta_k + \omega \cdot dt )
-where:
-* ( v ) is linear velocity
-* ( \omega ) is angular velocity
-* ( dt ) is the simulation time step
+The robot is modeled using a unicycle kinematic model with its control inputs being; linear velocity(V) and and angular velocity(ω).
 
 ### Network Modeling
 Network effects are incorporated into the control loop using:
 1. **Latency (Delay)**
-   Commands are delayed by a number of discrete time steps.
+  * Commands are delayed by a number of discrete time steps.
 2. **Packet Loss (Reliability)**
-   Commands are randomly dropped using a Gilbert- Elliot probabilistic model.
+  * Commands are randomly dropped using a Gilbert- Elliot probabilistic model.
 3. **Jitter (Delay Variation)**
-   Jitter is varied using a lognormal distribution.
+  * Jitter is varied using a lognormal distribution.
 
 ### Simulation Setup
 * Time step: ( dt = 0.001 ) seconds
 * Simulation length: 5000 steps
 
 
-## 📊 Performance Metrics
+##  Performance Metrics
 The following metrics are used:
 * **Tracking Error**
 * **Average Error**
