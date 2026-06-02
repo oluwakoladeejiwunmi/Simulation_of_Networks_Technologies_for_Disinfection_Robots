@@ -1,4 +1,4 @@
-# Simulation of Networks Technologies for Disinfection Robots
+# Simulation of Different Network Technologies for Disinfection Robots
 
 ## Project Overview
 This project presents a MATLAB-based simulation of a remote-controlled disinfection robot operating under different wireless network conditions. The objective is to analyze how network performance accuracy and stability of robot control.
@@ -7,10 +7,10 @@ The study is motivated by flu and pandemic scenarios, where remote-controlled ro
 
 
 ## Objectives
-* Model a mobile robot using a unicycle kinematic model
-* Simulate the impact of network latency, packet loss, and jitter on control signals
-* Compare the performance of Wi-Fi 7, 4G LTE, and 5G URLLC networks
-* Evaluate system performance using trajectory tracking error metrics
+* Model a mobile robot using a unicycle kinematic model.
+* Simulate the impact of network latency, packet loss, and jitter on control signals.
+* Compare the performance of Wi-Fi 7, 4G LTE, and 5G URLLC networks.
+* Evaluate system performance using trajectory tracking error metrics.
 
 
  ## Methodology
